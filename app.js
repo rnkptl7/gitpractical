@@ -5,3 +5,11 @@ function writeData(name, age) {
 }
 
 writeData('Ronak Patel', 22);
+
+async function fetchData() {
+    const data = await fetch('https://google.com/api/');
+    console.log(data)
+}
+
+fetchData();
+
